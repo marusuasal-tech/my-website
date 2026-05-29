@@ -1,20 +1,20 @@
 body {
   background-color: #e8e7e5;
   color: #364440;
-  width: 70%;
-  margin: 0 auto;
+  margin: 2em;
   font-family: "Gotham Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 div.img {
-  margin-top: 15px;
   display: flex;
-  justify-items: center;
-  gap: 15px;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 img {
-  width: 200px;
+  width: 12em;
   height: auto;
 }
 
