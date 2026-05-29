@@ -1,0 +1,25 @@
+body {
+  background-color: #e2d6e0;
+  color: #364440;
+  width: 70%;
+  margin: 0 auto;
+  font-family: "Gotham Pro", sans-serif;
+}
+
+.img {
+  margin-top: 20px;
+  text-align: center;
+}
+
+a,
+a:visited,
+a:focus,
+a:active {
+  color: #4e7479;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a2705d;
+  text-decoration: underline;
+}
