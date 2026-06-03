@@ -1,0 +1,22 @@
+#social_media button {
+  background: none;
+  border: 4px dashed #201816;
+  border-radius: 10px;
+  padding: 5px 9px;
+}
+
+.social_media {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.social_media img {
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+}
+
+.container__social_media {
+  margin: 1em 0;
+}

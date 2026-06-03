@@ -1,0 +1,40 @@
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+  color: #d9c7b3;
+}
+
+nav a:focus,
+nav a:hover,
+nav a:active {
+  color: #f0a14d;
+}
+
+.logo,
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0 0.5em;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.menu {
+  font-size: 18px;
+  gap: 5px;
+}

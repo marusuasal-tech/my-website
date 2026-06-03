@@ -1,0 +1,20 @@
+#hobbies div {
+  margin: 1em 0;
+}
+
+li {
+  margin-left: 3em;
+}
+
+.container__album,
+.container__games {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1em 0;
+}
+
+.album,
+.game {
+  margin: 0.5em;
+}

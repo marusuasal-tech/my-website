@@ -1,48 +1,405 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Lina.</title>
+    <title>mart_professional</title>
 
-    <link rel="stylesheet" href="css\normalize.css" />
-    <link rel="stylesheet" href="css\style.css" />
-    <script src="js\main.js"></script>
+    <link rel="icon" href="assets/icon.png" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/index/header.css" />
+    <link rel="stylesheet" href="css/index/about_me.css" />
+    <link rel="stylesheet" href="css/index/social_media.css" />
+    <link rel="stylesheet" href="css/index/hobbies.css" />
+    <link rel="stylesheet" href="css/index/footer.css" />
+
+    <script src="js/main.js"></script>
   </head>
 
   <body>
-    <div class="img">
-      <img src="assets/hand.jpg" />
-      <img src="assets/selfie.jpg" />
-      <img src="assets/shadow.jpg" />
-    </div>
+    <header>
+      <div class="logo">
+        <img src="assets/index/logo.png" />
+        <h1>mart_professional</h1>
+      </div>
 
-    <h3>
-      welcome to my page! <br />my name is Marina, I'm 16. <br />
-      these are my fandoms::
-    </h3>
+      <nav class="menu">
+        <a href="#about_me">обо мне</a>
+        <h3>꘎</h3>
+        <a href="#social_media">социальные сети</a>
+        <h3>꘎</h3>
+        <a href="#hobbies">интересы</a>
+      </nav>
+    </header>
 
-    <ul>
-      <li>Marvel</li>
-      <li>Harry Potter</li>
-      <li>Hannibal</li>
-      <li>The Stanley Parable</li>
-      <li>Detroit Become Human</li>
-      <li>Honkai Star Rail</li>
-      <li>Genshin Impact</li>
-      <li>Doctor House</li>
-      <li>Night In The Woods</li>
-      <li>Sherlock</li>
-      <li>Alien Stage</li>
-      <li>The Amazing Digital Circus</li>
-    </ul>
+    <main>
+      <!-- секция обо мне -->
+      <section id="about_me">
+        <div class="photos">
+          <img src="assets/index/hand.jpg" />
+          <img src="assets/index/sun.png" class="doodle" />
+          <img src="assets/index/selfie.jpg" />
+          <img src="assets/index/eye.png" class="doodle" />
+          <img src="assets/index/shadow.jpg" />
+        </div>
 
-    <b>
-      <a href="https://t.me/mart_professional" target="_blank">
-        and here is my channel =D
-      </a>
-    </b>
+        <h2>
+          всем привет!!
+          <span class="secondary">
+            (and in case I don't see ya, good afternoon, good evening, and
+            goodnight!)
+          </span>
+        </h2>
+        <h3>
+          меня зовут Марина, но также буду рада обращениям Лина и MART. мне 16
+          лет, день рождения 24 февраля. <…>
+        </h3>
+
+        <div class="tests">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+          />
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+          />
+        </div>
+      </section>
+
+      <!-- секция социальные сети -->
+      <section id="social_media">
+        <h2>социальные сети, где я публикую свои работы!</h2>
+
+        <div class="container__social_media">
+          <div class="social_media">
+            <img src="assets/index/telegram.png" />
+            <a href="https://t.me/mart_professional" target="_blank"
+              >Telegram</a
+            >
+          </div>
+          <div class="social_media">
+            <img src="assets/index/tiktok.png" />
+            <a href="https://www.tiktok.com/@mart_professional" target="_blank"
+              >TikTok</a
+            >
+          </div>
+          <div class="social_media">
+            <img src="assets/index/instagram.png" />
+            <a href="https://instagram.com/mart_professional/" target="_blank"
+              >Instagram</a
+            >
+          </div>
+          <div class="social_media">
+            <img src="assets/index/artfight.png" />
+            <a href="https://artfight.net/~mart_professional" target="_blank"
+              >Art Fight</a
+            >
+          </div>
+        </div>
+
+        <button><a href="pages/works.html">галерея моих рисунков</a></button>
+      </section>
+
+      <!-- секция интересы -->
+      <section id="hobbies">
+        <div class="fandoms">
+          <h2>
+            мои фандомы:: <br /><span class="secondary"
+              >(и мои любимые пейринги — да, я прошиппер, но в реальности я всю
+              эту всячину осуждаю)</span
+            >
+          </h2>
+
+          <ul>
+            <li>
+              Marvel Cinematic Universe
+              <h3>
+                Локи Лафейсон/Тони Старк <br />Питер Паркер/Уэйд Уилсон
+                <br />Баки Барнс/Стив Роджерс <br />Эдди/Веном
+              </h3>
+            </li>
+            <li>
+              Harry Potter
+              <h3>
+                Гарри Поттер/Том Реддл
+                <span class="secondary">(мой OTP!!)</span> <br />Барти
+                Крауч/Эван Розье <br />Сириус Блэк/Римус Люпин
+              </h3>
+            </li>
+            <li>
+              Hannibal
+              <h3>Уилл Грэм/Ганнибал Лектер</h3>
+            </li>
+            <li>
+              Sherlock
+              <h3>Шерлок Холмс/Джон Ватсон</h3>
+            </li>
+            <li>
+              House
+              <h3>Грегори Хаус/Роберт Чейз</h3>
+            </li>
+            <li>
+              Honkai: Star Rail
+              <h3>Авантюрин/Рацио</h3>
+            </li>
+            <li>
+              Genshin Impact
+              <h3>Дотторе/Панталоне</h3>
+            </li>
+            <li>
+              The Stanley Parable
+              <h3>Стэнли/Рассказчик</h3>
+            </li>
+            <li>
+              Detroit: Become Human
+              <h3>Коннор/Хэнк</h3>
+            </li>
+            <li>Night in the Woods</li>
+            <li>Alien Stage</li>
+            <li>The Amazing Digital Circus</li>
+          </ul>
+
+          <div>
+            <h3>+</h3>
+            <h3>
+              Дэнни Оушен/Расти Райан <br />Нил/Протагонист <br />Ньют/Томас
+            </h3>
+          </div>
+        </div>
+
+        <div class="music">
+          <h2>
+            вкусы в музыке: <span class="secondary">рок на первом месте</span>
+          </h2>
+
+          <div class="container__album">
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="album">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="games">
+          <h2>
+            игры, которые остались у меня в сердечке (не включены упомянутые в
+            фандомах) <br /><span class="secondary"
+              >*звёздочкой отмечены те, что пройдены на 100% достижений (yup,
+              I'm a completionist)</span
+            >
+          </h2>
+
+          <div class="container__games">
+            <div class="game">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="game">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="game">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="game">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="game">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="game">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="game">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="game">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="game">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+            <div class="game">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+              />
+              <h3>name</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="other_media">
+          <h2>другие медиа</h2>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>…</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h3>
+        мне не надо указывать здесь политику конфиденциальности, правда ведь? :D
+      </h3>
+
+      <h3>@mart_professional, 2026</h3>
+    </footer>
   </body>
 </html>
