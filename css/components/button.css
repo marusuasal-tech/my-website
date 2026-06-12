@@ -1,0 +1,30 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 4px solid #201816;
+  border-radius: 16px;
+  background-color: transparent;
+  color: #201816;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f0a14d;
+  box-shadow: 10px 10px #b87c35;
+}
+
+.button:active {
+  background-color: darkcyan;
+  box-shadow: 10px 10px #364b7f;
+}
+
+.button__image {
+  width: 2rem;
+  height: 2rem;
+}
+
+.button__text {
+  text-transform: uppercase;
+}
