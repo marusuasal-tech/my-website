@@ -1,0 +1,5 @@
+#original_characters {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-5) var(--space-6);
+}

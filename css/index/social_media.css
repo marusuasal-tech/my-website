@@ -1,14 +1,19 @@
-#social_media button {
-  background: none;
-  border: 4px dashed #201816;
-  border-radius: 10px;
-  padding: 5px 9px;
+#social_media {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-5) var(--space-6);
+}
+
+.container__social_media {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
 }
 
 .social_media {
   display: flex;
   align-items: center;
-  gap: 7px;
+  gap: var(--space-2);
 }
 
 .social_media img {

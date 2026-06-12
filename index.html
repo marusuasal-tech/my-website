@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,11 +12,15 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="css/index/header.css" />
+    <link rel="stylesheet" href="css/header.css" />
+
     <link rel="stylesheet" href="css/index/about_me.css" />
     <link rel="stylesheet" href="css/index/social_media.css" />
-    <link rel="stylesheet" href="css/index/hobbies.css" />
-    <link rel="stylesheet" href="css/index/footer.css" />
+    <link rel="stylesheet" href="css/index/original_characters.css" />
+    <link rel="stylesheet" href="css/index/commissions.css" />
+    <link rel="stylesheet" href="css/index/interests.css" />
+
+    <link rel="stylesheet" href="css/footer.css" />
 
     <script src="js/main.js"></script>
   </head>
@@ -33,45 +37,48 @@
         <h3>꘎</h3>
         <a href="#social_media">социальные сети</a>
         <h3>꘎</h3>
-        <a href="#hobbies">интересы</a>
+        <a href="#original_characters">OC</a>
+        <h3>꘎</h3>
+        <a href="#commissions">коммишки</a>
+        <h3>꘎</h3>
+        <a href="#interests">интересы</a>
       </nav>
     </header>
+
+    <div class="floating__container">
+      <button class="floating_btn language">
+        <a href=""><img src="assets/language.png" /></a>
+      </button>
+    </div>
 
     <main>
       <!-- секция обо мне -->
       <section id="about_me">
         <div class="photos">
-          <img src="assets/index/hand.jpg" />
-          <img src="assets/index/sun.png" class="doodle" />
-          <img src="assets/index/selfie.jpg" />
-          <img src="assets/index/eye.png" class="doodle" />
-          <img src="assets/index/shadow.jpg" />
+          <img src="assets/index/photos/hand.jpg" />
+          <img src="assets/index/photos/sun.png" class="doodle" />
+          <img src="assets/index/photos/selfie.jpg" />
+          <img src="assets/index/photos/eye.png" class="doodle" />
+          <img src="assets/index/photos/shadow.jpg" />
         </div>
 
-        <h2>
-          всем привет!!
-          <span class="secondary">
-            (and in case I don't see ya, good afternoon, good evening, and
-            goodnight!)
-          </span>
-        </h2>
-        <h3>
-          меня зовут Марина, но также буду рада обращениям Лина и MART. мне 16
-          лет, день рождения 24 февраля. <…>
-        </h3>
+        <div class="text">
+          <h2>
+            добро пожаловать на мою страничку!! </br>
+            <span class="secondary">
+              (and in case I don't see ya, good afternoon, good evening, and
+              goodnight)
+            </span>
+          </h2>
 
-        <div class="tests">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-          />
+          <h3>
+            зовусь Мариной, но безмерно рада буду обращениям Лина и Март (+
+            уменьшительно-ласкательным формам этих имён). я digital художник-самоучка, но традишкой тоже иногда помышляю. этот сайт сделан, чтобы в одном месте собрать всяческую информацию обо мне: в том числе об OCках, акутальных соц. сетях и работах на заказ :D рисую я стилусом в ibisPaintX на Galaxy Tab S9 FE.
+          </h3>
+          <h3>P.S. не против вступить в какое-нибудь сообщество художников или даже дружить :3</h3>
         </div>
       </section>
+      <hr />
 
       <!-- секция социальные сети -->
       <section id="social_media">
@@ -79,305 +86,228 @@
 
         <div class="container__social_media">
           <div class="social_media">
-            <img src="assets/index/telegram.png" />
-            <a href="https://t.me/mart_professional" target="_blank"
-              >Telegram</a
-            >
+            <img src="assets/index/social media/telegram.png" />
+            <a href="https://t.me/mart_professional" target="_blank">Telegram</a>
           </div>
+
           <div class="social_media">
-            <img src="assets/index/tiktok.png" />
-            <a href="https://www.tiktok.com/@mart_professional" target="_blank"
-              >TikTok</a
-            >
+            <img src="assets/index/social media/tiktok.png" />
+            <a href="https://www.tiktok.com/@mart_professional" target="_blank">TikTok</a>
           </div>
+
           <div class="social_media">
-            <img src="assets/index/instagram.png" />
-            <a href="https://instagram.com/mart_professional/" target="_blank"
-              >Instagram</a
-            >
+            <img src="assets/index/social media/instagram.png" />
+            <a href="https://instagram.com/mart_professional/" target="_blank">Instagram</a>
           </div>
+
           <div class="social_media">
-            <img src="assets/index/artfight.png" />
-            <a href="https://artfight.net/~mart_professional" target="_blank"
-              >Art Fight</a
-            >
+            <img src="assets/index/social media/artfight.png" />
+            <a href="https://artfight.net/~mart_professional" target="_blank">Art Fight</a>
           </div>
         </div>
-
-        <button><a href="pages/works.html">галерея моих рисунков</a></button>
       </section>
+      <hr />
+
+      <!-- секция OC -->
+      <section id="original_characters">
+        <h3>text is coming…</h3>
+        <button class="page_btn">
+          <a href="pages/worlds.html">описание моих миров</a>
+        </button>
+      </section>
+      <hr />
+
+      <!-- секция коммишки -->
+      <section id="commissions">
+        <h3>text is coming…</h3>
+        <button class="page_btn">
+          <a href="pages/works.html">галерея моих рисунков</a>
+        </button>
+      </section>
+      <hr />
 
       <!-- секция интересы -->
-      <section id="hobbies">
+      <section id="interests">
         <div class="fandoms">
           <h2>
-            мои фандомы:: <br /><span class="secondary"
-              >(и мои любимые пейринги — да, я прошиппер, но в реальности я всю
-              эту всячину осуждаю)</span
-            >
+            мои любимые пейринги <br />
+            <span class="secondary">(и фандомы + да, я прошиппер, но в реальности я всю эту всячину осуждаю)</span>
           </h2>
 
           <ul>
-            <li>
-              Marvel Cinematic Universe
-              <h3>
-                Локи Лафейсон/Тони Старк <br />Питер Паркер/Уэйд Уилсон
-                <br />Баки Барнс/Стив Роджерс <br />Эдди/Веном
-              </h3>
-            </li>
-            <li>
-              Harry Potter
-              <h3>
-                Гарри Поттер/Том Реддл
-                <span class="secondary">(мой OTP!!)</span> <br />Барти
-                Крауч/Эван Розье <br />Сириус Блэк/Римус Люпин
-              </h3>
-            </li>
-            <li>
-              Hannibal
-              <h3>Уилл Грэм/Ганнибал Лектер</h3>
-            </li>
-            <li>
-              Sherlock
-              <h3>Шерлок Холмс/Джон Ватсон</h3>
-            </li>
-            <li>
-              House
-              <h3>Грегори Хаус/Роберт Чейз</h3>
-            </li>
-            <li>
-              Honkai: Star Rail
-              <h3>Авантюрин/Рацио</h3>
-            </li>
-            <li>
-              Genshin Impact
-              <h3>Дотторе/Панталоне</h3>
-            </li>
-            <li>
-              The Stanley Parable
-              <h3>Стэнли/Рассказчик</h3>
-            </li>
-            <li>
-              Detroit: Become Human
-              <h3>Коннор/Хэнк</h3>
-            </li>
-            <li>Night in the Woods</li>
-            <li>Alien Stage</li>
-            <li>The Amazing Digital Circus</li>
+            <li>Локи Лафейсон/Тони Старк</li>
+            <li>Питер Паркер/Уэйд Уилсон</li>
+            <li>Баки Барнс/Стив Роджерс</li>
+            <li>Эдди/Веном</li>
+            <li>Гарри Поттер/Том Реддл <span class="secondary">(мой OTP!!)</span></li>
+            <li>Барти Крауч/Эван Розье</li>
+            <li>Сириус Блэк/Римус Люпин</li>
+            <li>Уилл Грэм/Ганнибал Лектер</li>
+            <li>Шерлок Холмс/Джон Ватсон</li>
+            <li>Грегори Хаус/Роберт Чейз</li>
+            <li>Авантюрин/Рацио</li>
+            <li>Дотторе/Панталоне</li>
+            <li>Стэнли/Рассказчик</li>
+            <li>Коннор/Хэнк</li>
+            <li>Дэнни Оушен/Расти Райан</li>
+            <li>Нил/Протагонист</li>
+            <li>Ньют/Томас</li>
           </ul>
-
-          <div>
-            <h3>+</h3>
-            <h3>
-              Дэнни Оушен/Расти Райан <br />Нил/Протагонист <br />Ньют/Томас
-            </h3>
-          </div>
         </div>
 
         <div class="music">
           <h2>
-            вкусы в музыке: <span class="secondary">рок на первом месте</span>
+            вкусы в музыке </br><span class="secondary">(рок на первом месте)</span>
           </h2>
 
           <div class="container__album">
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/take cair paramour.jpg" />
+              <h3>Take Cair Paramour</h3>
             </div>
             <div class="album">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
+                src="assets/index/music/three cheers for the newlydeads.jpg"
               />
-              <h3>name</h3>
+              <h3>Three Cheers for the Newlydeads</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/part one.jpg" />
+              <h3>Pt. One</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/origins.jpg" />
+              <h3>Origins</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/smoke and mirrors.jpg" />
+              <h3>Smoke + Mirrors</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/evolve.jpg" />
+              <h3>Evolve</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/a b.jpg" />
+              <h3>A/B</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/inside.jpg" />
+              <h3>INSIDE</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/легенда.jpg" />
+              <h3>Легенда</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/прости меня моя любовь.jpg" />
+              <h3>ПРОСТИ МЕНЯ МОЯ ЛЮБОВЬ</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/вендетта.jpg" />
+              <h3>Вендетта</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/o two.jpg" />
+              <h3>O2</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/in utero.jpg" />
+              <h3>In Utero</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/ziggy stardust.jpg" />
+              <h3>
+                The Rise and Fall of Ziggy Stardust and the Spiders from Mars
+              </h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/magic hour.jpg" />
+              <h3>Magic Hour</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/who really cares.jpg" />
+              <h3>Who Really Cares</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/bodypop.jpg" />
+              <h3>Bodypop</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/divide.jpg" />
+              <h3>÷</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/news of the world.jpg" />
+              <h3>News Of The World</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/rubber soul.jpg" />
+              <h3>Rubber Soul</h3>
             </div>
             <div class="album">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/music/violator.jpg" />
+              <h3>Violator</h3>
             </div>
           </div>
         </div>
 
         <div class="games">
           <h2>
-            игры, которые остались у меня в сердечке (не включены упомянутые в
-            фандомах) <br /><span class="secondary"
-              >*звёздочкой отмечены те, что пройдены на 100% достижений (yup,
-              I'm a completionist)</span
+            игры, которые остались у меня в сердечке<br /><span
+              class="secondary"
+              >(я completionist, кстати)</span
             >
           </h2>
 
           <div class="container__games">
             <div class="game">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/games/a little to the left.jpg" />
+              <h3>A Little to the Left</h3>
             </div>
             <div class="game">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/games/there is no game.jpg" />
+              <h3>There Is No Game: Wrong Dimension</h3>
             </div>
             <div class="game">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/games/hozy.jpg" />
+              <h3>Hozy</h3>
             </div>
             <div class="game">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/games/journey of a roach.jpg" />
+              <h3>Journey of a Roach</h3>
             </div>
             <div class="game">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/games/milk inside a bag of milk.jpg" />
+              <h3>Milk inside a bag of milk inside a bag of milk</h3>
             </div>
             <div class="game">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/games/unpacking.jpg" />
+              <h3>Unpacking</h3>
             </div>
             <div class="game">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/games/the white door.jpg" />
+              <h3>The White Door</h3>
             </div>
             <div class="game">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/games/superliminal.jpg" />
+              <h3>Superliminal</h3>
             </div>
             <div class="game">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/games/machinarium.jpg" />
+              <h3>Machinarium</h3>
             </div>
             <div class="game">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/960px-Solid_black.svg.png"
-              />
-              <h3>name</h3>
+              <img src="assets/index/games/spiritfarer.jpg" />
+              <h3>Spiritfarer®: Farewell Edition</h3>
+            </div>
+            <div class="game">
+              <img src="assets/index/games/viewfinder.jpg" />
+              <h3>Viewfinder</h3>
+            </div>
+            <div class="game">
+              <img src="assets/index/games/the last of us.jpg" />
+              <h3>The Last of Us™ Part I</h3>
             </div>
           </div>
         </div>
@@ -395,11 +325,11 @@
     </main>
 
     <footer>
-      <h3>
+      <h4>
         мне не надо указывать здесь политику конфиденциальности, правда ведь? :D
-      </h3>
+      </h4>
 
-      <h3>@mart_professional, 2026</h3>
+      <h4>@mart_professional, 2026</h4>
     </footer>
   </body>
 </html>

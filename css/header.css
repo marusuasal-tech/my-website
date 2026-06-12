@@ -1,9 +1,12 @@
 header {
   position: sticky;
   top: 0;
+  padding: 1.2rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #201816;
+  color: #d9c7b3;
 }
 
 nav a,
@@ -29,12 +32,17 @@ nav a:active {
 }
 
 .logo img {
-  width: 60px;
-  height: auto;
+  width: 3.2rem;
+  height: 3.2rem;
   border-radius: 15px;
 }
 
 .menu {
   font-size: 18px;
   gap: 5px;
+}
+
+header h3 {
+  color: #5f514c;
+  margin-bottom: 0;
 }
