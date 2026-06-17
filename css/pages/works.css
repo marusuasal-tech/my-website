@@ -1,12 +1,11 @@
 .works {
-  padding: var(--space-5) var(--space-6);
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: var(--space-3);
+	padding: var(--space-5) var(--space-6);
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-3);
 }
 
 img {
-  width: 300px;
-  height: 300px;
+	width: 30%;
+	height: auto;
 }

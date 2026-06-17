@@ -1,48 +1,49 @@
 header {
-  position: sticky;
-  top: 0;
-  padding: 1.2rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #201816;
-  color: #d9c7b3;
+	position: sticky;
+	top: 0;
+	padding: var(--space-3) var(--space-4);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #201816;
+	color: #d9c7b3;
 }
 
 nav a,
 nav a:link,
 nav a:visited {
-  color: #d9c7b3;
+	color: #d9c7b3;
 }
 
 nav a:focus,
 nav a:hover,
 nav a:active {
-  color: #f0a14d;
+	color: #f0a14d;
 }
 
 .logo,
-.menu {
-  display: flex;
-  align-items: center;
+.menu__links {
+	display: inline-flex;
+	align-items: center;
 }
 
-.logo h1 {
-  margin: 0 0.5em;
+.logo {
+	gap: var(--space-3);
 }
 
 .logo img {
-  width: 3.2rem;
-  height: 3.2rem;
-  border-radius: 15px;
+	width: 3.2rem;
+	height: 3.2rem;
 }
 
-.menu {
-  font-size: 18px;
-  gap: 5px;
+.menu__links {
+	gap: var(--space-2);
+}
+
+.header__text {
+	margin: 0;
 }
 
 header h3 {
-  color: #5f514c;
-  margin-bottom: 0;
+	color: #5f514c;
 }

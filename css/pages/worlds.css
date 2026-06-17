@@ -1,23 +1,23 @@
 #intro {
-  display: flex;
-  flex-direction: column;
-  padding: var(--space-5) var(--space-6);
+	display: flex;
+	flex-direction: column;
+	padding: var(--space-5) var(--space-6);
 }
 
 #binomial_theorem {
-  display: flex;
-  flex-direction: column;
-  padding: var(--space-5) var(--space-6);
+	display: flex;
+	flex-direction: column;
+	padding: var(--space-5) var(--space-6);
 }
 
 #tragicomedy {
-  display: flex;
-  flex-direction: column;
-  padding: var(--space-5) var(--space-6);
+	display: flex;
+	flex-direction: column;
+	padding: var(--space-5) var(--space-6);
 }
 
 #entropy {
-  display: flex;
-  flex-direction: column;
-  padding: var(--space-5) var(--space-6);
+	display: flex;
+	flex-direction: column;
+	padding: var(--space-5) var(--space-6);
 }
