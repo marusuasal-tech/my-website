@@ -1,0 +1,15 @@
+.works__container {
+  padding: var(--space-5) var(--space-6);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+.works__container .works__card {
+  flex: 1 1 auto;
+  height: 250px;
+}
+.works__container .works__card img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

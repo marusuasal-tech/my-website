@@ -6,72 +6,73 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<title>mart_professional</title>
-
 		<link rel="icon" href="../assets/logo.svg" />
 
 		<link rel="stylesheet" href="../css/normalize.css" />
 		<link rel="stylesheet" href="../css/style.css" />
 
 		<link rel="stylesheet" href="../css/header.css" />
-		<link rel="stylesheet" href="../css/pages/worlds.css" />
+		<link rel="stylesheet" href="../css/worlds.css" />
 		<link rel="stylesheet" href="../css/footer.css" />
 
-		<!-- компоненты -->
-		<link rel="stylesheet" href="../css/components/button.css" />
+		<link rel="stylesheet" href="../css/button.css" />
 	</head>
 
 	<body>
 		<header>
 			<div class="logo">
-				<img src="../assets/logo.svg" alt="logo" />
-				<h1 class="header__text">mart_professional</h1>
+				<img class="logo__image" src="../assets/logo.svg" alt="The mart_professional logo." />
+				<h1 class="logo__title">mart_professional</h1>
 			</div>
 
-			<nav class="menu__links">
-				<a href="#intro">введение</a>
-				<h3 class="header__text">꘎</h3>
-				<a href="#binomial_theorem">Бином Ньютона</a>
-				<h3 class="header__text">꘎</h3>
-				<a href="#tragicomedy">Трагикомедия</a>
-				<h3 class="header__text">꘎</h3>
-				<a href="#entropy">Энтропия</a>
+			<nav class="menu">
+				<a class="menu__link" href="#intro">введение</a>
+				<span class="menu__separator">*</span>
+				<a class="menu__link" href="#binomial_theorem">Бином Ньютона</a>
+				<span class="menu__separator">*</span>
+				<a class="menu__link" href="#tragicomedy">Трагикомедия</a>
+				<span class="menu__separator">*</span>
+				<a class="menu__link" href="#entropy">Энтропия</a>
 			</nav>
 		</header>
 
-		<nav class="menu__buttons">
-			<button class="button back">
+		<nav class="floating_menu">
+			<button class="button back_button">
 				<img
 					class="button__image"
 					src="../assets/back.svg"
 					onclick="location.href = '../index.html'"
+					alt="Go back button."
 				/>
 			</button>
-			<button class="button language">
-				<img class="button__image" src="../assets/language.svg" />
+			<button class="button language_button">
+				<img
+					class="button__image"
+					src="../assets/language.svg"
+					alt="Switch language icon."
+				/>
 			</button>
 		</nav>
 
 		<main>
-			<!-- секция введение -->
 			<section id="intro"></section>
+
 			<hr />
 
-			<!-- секция Бином Ньютона -->
 			<section id="binomial_theorem"></section>
+
 			<hr />
 
-			<!-- секция Трагикомедия -->
 			<section id="tragicomedy"></section>
+
 			<hr />
 
-			<!-- секция Энтропия -->
 			<section id="entropy"></section>
 		</main>
 
 		<footer>
-			<h4>мне не надо указывать здесь политику конфиденциальности, правда ведь? :D</h4>
-
-			<h4>@mart_professional, 2026</h4>
+			<p>мне не надо указывать здесь политику конфиденциальности, правда ведь? :D</p>
+			<p>@mart_professional, 2026</p>
 		</footer>
 	</body>
 </html>

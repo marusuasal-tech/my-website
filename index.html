@@ -6,7 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<title>mart_professional</title>
-
 		<link rel="icon" href="assets/logo.svg" />
 
 		<link rel="stylesheet" href="css/normalize.css" />
@@ -14,16 +13,15 @@
 
 		<link rel="stylesheet" href="css/header.css" />
 
-		<link rel="stylesheet" href="css/index/about_me.css" />
-		<link rel="stylesheet" href="css/index/social_media.css" />
-		<link rel="stylesheet" href="css/index/original_characters.css" />
-		<link rel="stylesheet" href="css/index/commissions.css" />
-		<link rel="stylesheet" href="css/index/interests.css" />
+		<link rel="stylesheet" href="css/about_me.css" />
+		<link rel="stylesheet" href="css/social_media.css" />
+		<link rel="stylesheet" href="css/original_characters.css" />
+		<link rel="stylesheet" href="css/commissions.css" />
+		<link rel="stylesheet" href="css/interests.css" />
 
 		<link rel="stylesheet" href="css/footer.css" />
 
-		<!-- компоненты -->
-		<link rel="stylesheet" href="css/components/button.css" />
+		<link rel="stylesheet" href="css/button.css" />
 
 		<script src="js/main.js"></script>
 	</head>
@@ -31,66 +29,73 @@
 	<body>
 		<header>
 			<div class="logo">
-				<img src="assets/logo.svg" />
-				<h1 class="header__text">mart_professional</h1>
+				<img class="logo__image" src="assets/logo.svg" alt="The mart_professional logo." />
+				<h1 class="logo__title">mart_professional</h1>
 			</div>
 
-			<nav class="menu__links">
-				<a href="#about_me">обо мне</a>
-				<h3 class="header__text">꘎</h3>
-				<a href="#social_media">социальные сети</a>
-				<h3 class="header__text">꘎</h3>
-				<a href="#original_characters">OC</a>
-				<h3 class="header__text">꘎</h3>
-				<a href="#commissions">коммишки</a>
-				<h3 class="header__text">꘎</h3>
-				<a href="#interests">интересы</a>
+			<nav class="menu">
+				<a class="menu__link" href="#about_me">обо мне</a>
+				<span class="menu__separator">*</span>
+				<a class="menu__link" href="#social_media">социальные сети</a>
+				<span class="menu__separator">*</span>
+				<a class="menu__link" href="#original_characters">OC</a>
+				<span class="menu__separator">*</span>
+				<a class="menu__link" href="#commissions">коммишки</a>
+				<span class="menu__separator">*</span>
+				<a class="menu__link" href="#interests">интересы</a>
 			</nav>
 		</header>
 
-		<nav class="menu__buttons">
-			<button class="button language">
-				<img class="button__image" src="assets/language.svg" />
+		<nav class="floating_menu">
+			<button class="button language_button">
+				<img class="button__image" src="assets/language.svg" alt="Switch language icon." />
 			</button>
 		</nav>
 
 		<main>
-			<!-- секция обо мне -->
 			<section id="about_me">
 				<div class="about_me__photos">
-					<img src="assets/index/photos/hand.jpg" alt="hand" />
-					<img src="assets/index/photos/sun.png" class="doodle" alt="sun" />
-					<img src="assets/index/photos/selfie.jpg" alt="selfie" />
-					<img src="assets/index/photos/eye.png" class="doodle" alt="eye" />
-					<img src="assets/index/photos/shadow.jpg" alt="shadow" />
+					<img src="assets/index/photos/hand.jpg" alt="Hand photo." />
+					<img
+						src="assets/index/photos/sun.png"
+						class="about_me__doodle"
+						alt="Sun icon."
+					/>
+					<img src="assets/index/photos/selfie.jpg" alt="Selfie photo." />
+					<img
+						src="assets/index/photos/eye.png"
+						class="about_me__doodle"
+						alt="Eye icon."
+					/>
+					<img src="assets/index/photos/shadow.jpg" alt="Shadow photo." />
 				</div>
 
 				<div class="about_me__intro">
-					<h2>
-						добро пожаловать на мою страничку!!<br />
-						<span class="secondary">
-							(and in case I don't see ya, good afternoon, good evening, and
-							goodnight)
-						</span>
-					</h2>
-
+					<h2>добро пожаловать на мою страничку!!</h2>
 					<h3>
-						зовусь Мариной, но безмерно рада буду обращениям Лина и Март (+
-						уменьшительно-ласкательным формам этих имён). я digital художник-самоучка,
-						но традишкой тоже иногда помышляю. этот сайт сделан, чтобы в одном месте
-						собрать всяческую информацию обо мне: в том числе об OC, актуальных соц.
-						сетях и работах на заказ :D рисую я стилусом в ibisPaintX на Galaxy Tab S9
-						FE. P.S. не против вступить в какое-нибудь сообщество художников или даже
-						дружить :3
+						(and in case I don't see ya, good afternoon, good evening, and goodnight)
 					</h3>
+					<p>
+						зовусь <span class="bold">Мариной</span>, но безмерно рада буду обращениям
+						Лина и Март (+ уменьшительно-ласкательным формам этих имён). я
+						<span class="bold">digital художник-самоучка</span>, но традишкой тоже
+						иногда помышляю. этот сайт сделан, чтобы в одном месте собрать всяческую
+						информацию обо мне: в том числе об OC, актуальных соц. сетях и работах на
+						заказ :D рисую я стилусом в ibisPaintX на Galaxy Tab S9 FE.
+					</p>
+					<p>
+						<span class="bold">P.S.</span> все мои рисунки и правила их использования
+						лежат в секции «коммишки»! а тут сразу упомяну, что реквесты я не делаю, но
+						с радостью поучаствую в трейде или коллабе + не против вступить в
+						какое-нибудь сообщество художников или даже дружить лично :3
+					</p>
 				</div>
 			</section>
+
 			<hr />
 
-			<!-- секция социальные сети -->
 			<section id="social_media">
 				<h2>социальные сети!</h2>
-				<h3><…></h3>
 
 				<div class="social_media__container">
 					<div class="social_media__card">
@@ -121,52 +126,51 @@
 
 					<div class="social_media__card">
 						<img src="assets/index/social media/pinterest.svg" alt="artfight" />
-						<h3>Pinterest (link is coming…)</h3>
+						<a href="https://pinterest.com/mart_professional/" target="_blank">Pinterest</a>
 					</div>
 
 					<div class="social_media__card">
 						<img src="assets/index/social media/tumblr.svg" alt="artfight" />
-						<h3>Tumblr (link is coming…)</h3>
+						<a href="https://www.tumblr.com/mart-professional" target="_blank">Tumblr</a>
 					</div>
 				</div>
 			</section>
+
 			<hr />
 
-			<!-- секция OC -->
 			<section id="original_characters">
-				<h3>text is coming…</h3>
+				<div><h2>heading is coming…</h2>
+				<p>text is coming…</p></div>
 				<button class="button">
 					<a href="pages/worlds.html">описание моих миров</a>
 				</button>
 			</section>
+
 			<hr />
 
-			<!-- секция коммишки -->
 			<section id="commissions">
-				<h3>text is coming…</h3>
+				<div><h2>heading is coming…</h2>
+				<p>text is coming…</p></div>
 				<button class="button">
 					<a href="pages/works.html">галерея моих рисунков</a>
 				</button>
 			</section>
+
 			<hr />
 
-			<!-- секция интересы -->
 			<section id="interests">
-				<div class="fandoms">
-					<h2>
-						мои любимые пейринги <br />
-						<span class="secondary"
-							>(и фандомы + да, я прошиппер, но в реальности я всю эту всячину
-							осуждаю)</span
-						>
-					</h2>
+				<div class="pairings">
+					<h2>мои любимые пейринги</h2>
+					<h3>
+						(да, я прошиппер, но в реальности я всю эту всячину осуждаю)
+					</h3>
 
 					<ul>
 						<li>Локи Лафейсон/Тони Старк</li>
 						<li>Питер Паркер/Уэйд Уилсон</li>
 						<li>Баки Барнс/Стив Роджерс</li>
 						<li>Эдди/Веном</li>
-						<li>Гарри Поттер/Том Реддл <span class="secondary">(мой OTP!!)</span></li>
+						<li>Гарри Поттер/Том Реддл <span class="bold">(мой OTP!!)</span></li>
 						<li>Барти Крауч/Эван Розье</li>
 						<li>Сириус Блэк/Римус Люпин</li>
 						<li>Уилл Грэм/Ганнибал Лектер</li>
@@ -184,187 +188,193 @@
 
 				<div class="music">
 					<h2>вкусы в музыке</h2>
-					<h2><span class="secondary">(рок на первом месте)</span></h2>
+					<h3>(рок на первом месте)</h3>
 
-					<div class="container__album">
-						<div class="album">
+					<div class="music__container">
+						<figure class="music__card">
 							<img
 								src="assets/index/music/take cair paramour.jpg"
-								alt="take cair paramour"
+								alt="Take Cair Paramour"
 							/>
-							<h3>Take Cair Paramour</h3>
-						</div>
-						<div class="album">
+							<figcaption>Take Cair Paramour</figcaption>
+						</figure>
+						<figure class="music__card">
 							<img
 								src="assets/index/music/three cheers for the newlydeads.jpg"
-								alt="three cheers for the newlydeads"
+								alt="Three Cheers for the Newlydeads"
 							/>
-							<h3>Three Cheers for the Newlydeads</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/part one.jpg" alt="part one" />
-							<h3>Pt. One</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/origins.jpg" alt="origins" />
-							<h3>Origins</h3>
-						</div>
-						<div class="album">
+							<figcaption>Three Cheers for the Newlydeads</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/part one.jpg" alt="Pt. One" />
+							<figcaption>Pt. One</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/origins.jpg" alt="Origins" />
+							<figcaption>Origins</figcaption>
+						</figure>
+						<figure class="music__card">
 							<img
 								src="assets/index/music/smoke and mirrors.jpg"
-								alt="smoke and mirrors"
+								alt="Smoke + Mirrors"
 							/>
-							<h3>Smoke + Mirrors</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/evolve.jpg" alt="evolve" />
-							<h3>Evolve</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/a b.jpg" alt="a b" />
-							<h3>A/B</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/inside.jpg" alt="inside" />
-							<h3>INSIDE</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/легенда.jpg" alt="легенда" />
-							<h3>Легенда</h3>
-						</div>
-						<div class="album">
+							<figcaption>Smoke + Mirrors</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/evolve.jpg" alt="Evolve" />
+							<figcaption>Evolve</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/a b.jpg" alt="A/B" />
+							<figcaption>A/B</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/inside.jpg" alt="INSIDE" />
+							<figcaption>INSIDE</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/легенда.jpg" alt="Легенда" />
+							<figcaption>Легенда</figcaption>
+						</figure>
+						<figure class="music__card">
 							<img
 								src="assets/index/music/прости меня моя любовь.jpg"
-								alt="прости меня моя любовь"
+								alt="ПРОСТИ МЕНЯ МОЯ ЛЮБОВЬ"
 							/>
-							<h3>ПРОСТИ МЕНЯ МОЯ ЛЮБОВЬ</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/вендетта.jpg" alt="вендетта" />
-							<h3>Вендетта</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/o two.jpg" alt="o two" />
-							<h3>O2</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/in utero.jpg" alt="in utero" />
-							<h3>In Utero</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/ziggy stardust.jpg" alt="ziggy stardust" />
-							<h3>The Rise and Fall of Ziggy Stardust and the Spiders from Mars</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/magic hour.jpg" alt="magic hour" />
-							<h3>Magic Hour</h3>
-						</div>
-						<div class="album">
+							<figcaption>ПРОСТИ МЕНЯ МОЯ ЛЮБОВЬ</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/вендетта.jpg" alt="Вендетта" />
+							<figcaption>Вендетта</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/o two.jpg" alt="O2" />
+							<figcaption>O2</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/in utero.jpg" alt="In Utero" />
+							<figcaption>In Utero</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img
+								src="assets/index/music/ziggy stardust.jpg"
+								alt="The Rise and Fall of Ziggy Stardust and the Spiders from Mars"
+							/>
+							<figcaption>
+								The Rise and Fall of Ziggy Stardust and the Spiders from Mars
+							</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/magic hour.jpg" alt="Magic Hour" />
+							<figcaption>Magic Hour</figcaption>
+						</figure>
+						<figure class="music__card">
 							<img
 								src="assets/index/music/who really cares.jpg"
-								alt="who really cares"
+								alt="Who Really Cares"
 							/>
-							<h3>Who Really Cares</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/bodypop.jpg" alt="bodypop" />
-							<h3>Bodypop</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/divide.jpg" alt="divide" />
-							<h3>÷</h3>
-						</div>
-						<div class="album">
+							<figcaption>Who Really Cares</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/bodypop.jpg" alt="Bodypop" />
+							<figcaption>Bodypop</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/divide.jpg" alt="÷" />
+							<figcaption>÷</figcaption>
+						</figure>
+						<figure class="music__card">
 							<img
 								src="assets/index/music/news of the world.jpg"
-								alt="news of the world"
+								alt="News Of The World"
 							/>
-							<h3>News Of The World</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/rubber soul.jpg" alt="rubber soul" />
-							<h3>Rubber Soul</h3>
-						</div>
-						<div class="album">
-							<img src="assets/index/music/violator.jpg" alt="violator" />
-							<h3>Violator</h3>
-						</div>
+							<figcaption>News Of The World</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/rubber soul.jpg" alt="Rubber Soul" />
+							<figcaption>Rubber Soul</figcaption>
+						</figure>
+						<figure class="music__card">
+							<img src="assets/index/music/violator.jpg" alt="Violator" />
+							<figcaption>Violator</figcaption>
+						</figure>
 					</div>
 				</div>
 
 				<div class="games">
 					<h2>
-						игры, которые остались у меня в сердечке<br /><span class="secondary"
-							>(я completionist, кстати)</span
-						>
+						игры, которые остались у меня в сердечке
 					</h2>
+					<h3>(я completionist, кстати)</h3>
 
-					<div class="container__games">
-						<div class="game">
+					<div class="games__container">
+						<figure class="games__card">
 							<img
 								src="assets/index/games/a little to the left.jpg"
-								alt="a little to the left"
+								alt="A Little to the Left"
 							/>
-							<h3>A Little to the Left</h3>
-						</div>
-						<div class="game">
+							<figcaption>A Little to the Left</figcaption>
+						</figure>
+						<figure class="games__card">
 							<img
 								src="assets/index/games/there is no game.jpg"
-								alt="there is no game"
+								alt="There Is No Game: Wrong Dimension"
 							/>
-							<h3>There Is No Game: Wrong Dimension</h3>
-						</div>
-						<div class="game">
-							<img src="assets/index/games/hozy.jpg" alt="hozy" />
-							<h3>Hozy</h3>
-						</div>
-						<div class="game">
+							<figcaption>There Is No Game: Wrong Dimension</figcaption>
+						</figure>
+						<figure class="games__card">
+							<img src="assets/index/games/hozy.jpg" alt="Hozy" />
+							<figcaption>Hozy</figcaption>
+						</figure>
+						<figure class="games__card">
 							<img
 								src="assets/index/games/journey of a roach.jpg"
-								alt="journey of a roach"
+								alt="Journey of a Roach"
 							/>
-							<h3>Journey of a Roach</h3>
-						</div>
-						<div class="game">
+							<figcaption>Journey of a Roach</figcaption>
+						</figure>
+						<figure class="games__card">
 							<img
 								src="assets/index/games/milk inside a bag of milk.jpg"
-								alt="milk inside a bag of milk"
+								alt="Milk inside a bag of milk inside a bag of milk"
 							/>
-							<h3>Milk inside a bag of milk inside a bag of milk</h3>
-						</div>
-						<div class="game">
-							<img src="assets/index/games/unpacking.jpg" alt="unpacking" />
-							<h3>Unpacking</h3>
-						</div>
-						<div class="game">
-							<img src="assets/index/games/the white door.jpg" alt="the white door" />
-							<h3>The White Door</h3>
-						</div>
-						<div class="game">
-							<img src="assets/index/games/superliminal.jpg" alt="superliminal" />
-							<h3>Superliminal</h3>
-						</div>
-						<div class="game">
-							<img src="assets/index/games/machinarium.jpg" alt="machinarium" />
-							<h3>Machinarium</h3>
-						</div>
-						<div class="game">
-							<img src="assets/index/games/spiritfarer.jpg" alt="spiritfarer" />
-							<h3>Spiritfarer®: Farewell Edition</h3>
-						</div>
-						<div class="game">
-							<img src="assets/index/games/viewfinder.jpg" alt="viewfinder" />
-							<h3>Viewfinder</h3>
-						</div>
-						<div class="game">
-							<img src="assets/index/games/the last of us.jpg" alt="the last of us" />
-							<h3>The Last of Us™ Part I</h3>
-						</div>
+							<figcaption>Milk inside a bag of milk inside a bag of milk</figcaption>
+						</figure>
+						<figure class="games__card">
+							<img src="assets/index/games/unpacking.jpg" alt="Unpacking" />
+							<figcaption>Unpacking</figcaption>
+						</figure>
+						<figure class="games__card">
+							<img src="assets/index/games/the white door.jpg" alt="The White Door" />
+							<figcaption>The White Door</figcaption>
+						</figure>
+						<figure class="games__card">
+							<img src="assets/index/games/superliminal.jpg" alt="Superliminal" />
+							<figcaption>Superliminal</figcaption>
+						</figure>
+						<figure class="games__card">
+							<img src="assets/index/games/machinarium.jpg" alt="Machinarium" />
+							<figcaption>Machinarium</figcaption>
+						</figure>
+						<figure class="games__card">
+							<img src="assets/index/games/spiritfarer.jpg" alt="Spiritfarer®: Farewell Edition" />
+							<figcaption>Spiritfarer®: Farewell Edition</figcaption>
+						</figure>
+						<figure class="games__card">
+							<img src="assets/index/games/viewfinder.jpg" alt="Viewfinder" />
+							<figcaption>Viewfinder</figcaption>
+						</figure>
+						<figure class="games__card">
+							<img src="assets/index/games/the last of us.jpg" alt="The Last of Us™ Part I" />
+							<figcaption>The Last of Us™ Part I</figcaption>
+						</figure>
 					</div>
 				</div>
 
-				<div class="other_media">
-					<h2>другие медиа</h2>
+				<div class="">
+					<h2>heading is coming…</h2>
+					<h3>subheading is coming…</h3>
+
 					<ul>
 						<li>1</li>
 						<li>2</li>
@@ -376,9 +386,8 @@
 		</main>
 
 		<footer>
-			<h4>мне не надо указывать здесь политику конфиденциальности, правда ведь? :D</h4>
-
-			<h4>@mart_professional, 2026</h4>
+			<p>мне не надо указывать здесь политику конфиденциальности, правда ведь? :D</p>
+			<p>@mart_professional, 2026</p>
 		</footer>
 	</body>
 </html>

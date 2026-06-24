@@ -1,7 +1,11 @@
 footer {
-	display: flex;
-	justify-content: space-between;
-	background-color: #201816;
-	color: #d9c7b3;
-	padding: 1.2rem 2rem;
+  padding: var(--space-2) var(--space-4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--invert-background-color);
+  color: var(--invert-main-text-color);
+}
+footer p {
+  font-size: 0.5rem;
 }

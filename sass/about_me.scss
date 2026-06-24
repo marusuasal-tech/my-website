@@ -1,0 +1,35 @@
+#about_me {
+	display: flex;
+	flex-direction: column;
+	padding: var(--space-5) var(--space-6);
+
+	.about_me__intro {
+		h2 {
+			margin-bottom: var(--space-3);
+		}
+
+		p {
+			width: 70%;
+		}
+	}
+
+	.about_me__photos {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: var(--space-4);
+		margin-bottom: var(--space-5);
+
+		img {
+			width: 200px;
+			height: 200px;
+		}
+
+		.about_me__doodle {
+			width: 100px;
+			height: 100px;
+			border: 5px solid var(--link-basic-color);
+			padding: 45px;
+		}
+	}
+}

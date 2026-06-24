@@ -1,0 +1,23 @@
+#social_media {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5) var(--space-6);
+}
+
+.social_media__container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.social_media__card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.social_media__card img {
+  height: 2rem;
+  width: 2rem;
+  margin: var(--space-1);
+}

@@ -1,0 +1,59 @@
+#interests {
+  padding: var(--space-5) var(--space-6);
+  display: flex;
+  flex-direction: column;
+}
+
+.fandoms h4 {
+  /*margin: 0.1em 0 1em 1.5em;*/
+  color: #3f332f;
+}
+
+.music,
+.games {
+  display: flex;
+  flex-direction: column;
+}
+
+.music img {
+  width: 150px;
+  height: 150px;
+}
+
+.games img {
+  width: 150px;
+  height: 225px;
+}
+
+.music__container,
+.games__container,
+ul {
+  margin: 2em 0;
+}
+
+.music__container,
+.games__container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.music__container {
+  max-width: 1162px;
+}
+
+.games__container {
+  max-width: 996px;
+}
+
+.music__card,
+.games__card {
+  margin: 8px;
+  max-width: 150px;
+}
+.music__card h3,
+.games__card h3 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}

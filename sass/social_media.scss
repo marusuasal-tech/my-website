@@ -15,14 +15,10 @@
 	display: flex;
 	align-items: center;
 	gap: var(--space-2);
-}
 
-.social_media__card img {
-	height: 30px;
-	width: 30px;
-	margin: 2px;
-}
-
-.ocial_media__container {
-	margin: 1em 0;
+	img {
+		height: 2rem;
+		width: 2rem;
+		margin: var(--space-1);
+	}
 }
