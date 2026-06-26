@@ -8,29 +8,101 @@ header {
   background-color: var(--invert-background-color);
   color: var(--invert-main-text-color);
 }
-header .logo {
+
+.logo {
   display: inline-flex;
   align-items: center;
   gap: var(--space-3);
 }
-header .logo__image {
+.logo__image {
   width: 3.2rem;
   height: 3.2rem;
 }
-header .menu {
+
+.menu {
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
 }
-header .menu a, header .menu span {
+.menu a,
+.menu span {
   font-size: 1.2rem;
 }
-header .menu__link:link, header .menu__link:visited {
+.menu__link:link, .menu__link:visited {
   color: var(--invert-link-basic-color);
 }
-header .menu__link:focus, header .menu__link:hover, header .menu__link:active {
+.menu__link:focus, .menu__link:hover, .menu__link:active {
   color: var(--invert-link-active-color);
 }
-header .menu__separator {
+.menu__separator {
   color: var(--invert-secondary-text-color);
+}
+
+.menu_button {
+  display: none;
+}
+
+@media screen and (max-width: 1120px) {
+  .menu_button {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 5px;
+    z-index: 1001;
+  }
+  .menu_button span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: var(--invert-main-text-color);
+    transition: 0.3s ease;
+    border-radius: 2px;
+  }
+  .menu_button.menu-toggle--active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+  .menu_button.menu-toggle--active span:nth-child(2) {
+    opacity: 0;
+  }
+  .menu_button.menu-toggle--active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    right: 0.5rem;
+    background-color: var(--invert-background-color);
+    padding: var(--space-2) var(--space-3);
+    gap: var(--space-1);
+    border-radius: 8px;
+    border: 1px solid var(--invert-secondary-text-color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    min-width: 180px;
+    align-items: flex-start;
+  }
+  .menu__link {
+    font-size: 1rem;
+    padding: var(--space-1) 0;
+    width: 100%;
+  }
+  .menu__separator {
+    display: none;
+  }
+  .menu.menu--open {
+    display: flex;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    padding: var(--space-3) var(--space-3);
+  }
+  .logo__image {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }

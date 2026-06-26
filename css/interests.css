@@ -2,11 +2,7 @@
   padding: var(--space-5) var(--space-6);
   display: flex;
   flex-direction: column;
-}
-
-.fandoms h4 {
-  /*margin: 0.1em 0 1em 1.5em;*/
-  color: #3f332f;
+  gap: var(--space-5) 0;
 }
 
 .music,
@@ -26,13 +22,8 @@
 }
 
 .music__container,
-.games__container,
-ul {
-  margin: 2em 0;
-}
-
-.music__container,
 .games__container {
+  margin-top: var(--space-5);
   align-self: center;
   display: flex;
   justify-content: center;
